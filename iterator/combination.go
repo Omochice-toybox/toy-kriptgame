@@ -80,7 +80,7 @@ func NewIntCombinations(source []int, nPick int) *combinationGenerator {
 }
 
 func NewIntCombinationsWithReplacement(source []int, nPick int) *combinationGenerator {
-    interfaced := make([]interface{}, len(source))
+	interfaced := make([]interface{}, len(source))
 	for i, v := range source {
 		interfaced[i] = v
 	}
